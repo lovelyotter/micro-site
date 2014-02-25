@@ -6,7 +6,11 @@
     images: ["", ""],
     name: "",
     description: "",
-    cost: ""
+    cost: "",
+    weight: 0,
+    depth: 0,
+    width: 0,
+    height: 0
   }
   billing: {}
 }

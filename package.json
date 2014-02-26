@@ -1,0 +1,38 @@
+{
+  "name": "micro-site",
+  "description": "Simple micro-site server/client for a single product",
+  "version": "0.1.0",
+  "homepage": "https://github.com/lovelyotter/micro-site",
+  "author": {
+    "name": "Dan Woodson",
+    "email": "woodson.dan@gmail.com",
+    "url": "danwoods.github.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lovelyotter/micro-site.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lovelyotter/micro-site/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/lovelyotter/micro-site/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/micro-site",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.2"
+  },
+  "keywords": []
+}

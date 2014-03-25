@@ -3,11 +3,11 @@
 Simple micro-site server/client for a single product
 
 ## Getting Started
-Install the module with: `npm install micro-site`
-
-```javascript
-var micro_site = require('micro-site');
-micro_site.awesome(); // "awesome"
+``` shell
+git clone https://github.com/lovelyotter/micro-site.git
+cd micro-site
+npm install . (may require admin)
+npm start
 ```
 
 ## Documentation

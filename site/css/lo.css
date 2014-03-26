@@ -1,0 +1,13 @@
+body {
+  padding-top: 5px;
+}
+.header h3 {
+  padding-bottom: 0;
+}
+.jumbotron {
+  background-color: transparent;
+}
+.jumbotron img {
+  height: auto;
+  max-width: 100%;
+}

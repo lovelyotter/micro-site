@@ -17,7 +17,9 @@ for(idx; idx < len; idx++){
     handler.open({
       name: 'Lovely Otter',
       description: '6oz Body Butter ($6.99)',
-      amount: 699
+      amount: 699,
+      shippingAddress: true,
+      billingAddress: true
     });
     e.preventDefault();
   });

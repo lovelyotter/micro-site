@@ -1,3 +1,5 @@
+require('newrelic');
+
 var express = require('express'),
     app = express(),
     port = Number(process.env.PORT || 8888);

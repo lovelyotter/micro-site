@@ -10,7 +10,7 @@
       // Send charge data to server to actually charge
       handler = StripeCheckout.configure({
         key: 'pk_test_AbSR2xBdtLx1oleKC2Lr1Vyy',
-        image: '/square-image.png',
+        image: 'images/white_heart_trans.png',
         token: function(token, args) {
           $.ajax({
             url : 'checkout',

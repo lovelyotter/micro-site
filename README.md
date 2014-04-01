@@ -9,6 +9,8 @@ cd micro-site
 npm install . (may require admin)
 npm start
 ```
+You'll also need to specify a New Relic License Key if you want to enable monitoring and a Stripe Key if you want to enable payment processing. See `example_config.json`
+
 
 ## Documentation
 _(Coming soon)_

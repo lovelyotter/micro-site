@@ -1,16 +1,5 @@
 {
-  title: "",
-  url: "",
-  product: {
-    id: 0,
-    images: ["", ""],
-    name: "",
-    description: "",
-    cost: "",
-    weight: 0,
-    depth: 0,
-    width: 0,
-    height: 0
-  }
-  billing: {}
+  "PORT": 8888,
+  "NEWRELIC_LK": "New Relic License Key",
+  "STRIPE_K":    "Stripe Key" 
 }

@@ -9,7 +9,7 @@
       len = nlPurchaseElms.length,
       // Send charge data to server to actually charge
       handler = StripeCheckout.configure({
-        key: 'pk_test_AbSR2xBdtLx1oleKC2Lr1Vyy',
+        key: 'pk_live_vdwpAomEOHEOORM0wm3cpsIr',
         image: 'images/white_heart_trans.png',
         token: function(token, args) {
           $.ajax({
